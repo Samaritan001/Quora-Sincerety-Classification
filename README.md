@@ -7,10 +7,10 @@ https://www.kaggle.com/competitions/quora-insincere-questions-classification
 
 ## Word Embedding
 ### NLPL
-The word embedding used in the model is NLPL Word Embedding Repository.
+The word embedding used in the model is NLPL Word Embedding Repository.\
 https://vectors.nlpl.eu/repository/
 ### nn.Embedding
-Can also use nn.Embedding to train the embedding along with the LSTM model, which increases approximately 8% in testing.
+Can also use nn.Embedding to train the embedding along with the LSTM model, which increases approximately 8% in testing.\
 self.embedding_layer = nn.Embedding(vocab_size+2, embedding_dim)
 
 ## LSTM Model
